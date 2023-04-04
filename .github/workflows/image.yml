@@ -33,4 +33,4 @@ jobs:
           file: image_build/test_image/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: blackholll/action-test:latest,blackholll/action-test:${{ github.ref.name }}
+          tags: blackholll/action-test:latest,blackholll/action-test:${{ github.ref_name }}
